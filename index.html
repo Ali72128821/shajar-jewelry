@@ -104,7 +104,7 @@ function makeCard(name,i,lang,id,displayNumber=i+1){
   const productFa=dict.fa.items[i];
   const productLocal=lang==='ar'?name:productFa;
   const message=encodeURIComponent(`سلام، لطفاً قیمت ${productFa} (${productEn})، ${id==='stone'?'نقره با سنگ شجر طبیعی':'نقره بدون سنگ شجر طبیعی'} را اعلام کنید. / Hello, please quote the price of ${productEn}.`);
-  const links=[`https://wa.me/989123099290?text=${message}`,`https://t.me/+989123099290`,`https://ble.ir/09123099290`];
+  const links=[`https://wa.me/989123099290?text=${message}`,`https://t.me/alinajmiii3`,`https://ble.ir/Alinajmii`];
   const controls=contactButtons(lang,links);
   return `<article class="card"><h3 class="product-title"><span class="title-local">${productLocal}</span><span class="title-en" lang="en">${productEn}</span></h3>${statusAndPrice(lang)}<div class="contacts">${controls}</div></article>`;
 }
@@ -112,7 +112,7 @@ function makeLeatherCard(lang){
  const fa='دستبند چرمی با سنگ شجر طبیعی',en='Leather Bracelet with Natural Dendritic Agate',ar='سوار جلدي مع العقيق الشجري الطبيعي';
  const local=lang==='ar'?ar:fa;
  const msg=encodeURIComponent(`سلام، لطفاً قیمت دستبند چرمی با سنگ شجر طبیعی را اعلام کنید. / Hello, please quote the price of the Leather Bracelet with Natural Dendritic Agate.`);
- const links=[`https://wa.me/989123099290?text=${msg}`,`https://t.me/+989123099290`,`https://ble.ir/09123099290`];
+ const links=[`https://wa.me/989123099290?text=${msg}`,`https://t.me/alinajmiii3`,`https://ble.ir/Alinajmii`];
  const controls=contactButtons(lang,links);
  return `<article class="card"><h3 class="product-title"><span class="title-local">${local}</span><span class="title-en" lang="en">${en}</span></h3>${statusAndPrice(lang)}<div class="contacts">${controls}</div></article>`;
 }
