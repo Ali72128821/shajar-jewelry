@@ -391,5 +391,42 @@ function parseFrontmatter(source){
  }
  return obj;
 }
+ // اتصال محصولات ورزشی به CMS
+(function () {
+  const categories = [
+    'sport-women-necklace',
+    'sport-men-necklace'
+  ];
+
+  categories.forEach(category => {
+    const card = document.querySelector(
+      '#shajar-sports .category-card:nth-of-type(' +
+      (category === 'sport-women-necklace' ? 1 : 2) + ')'
+    );
+
+    if (!card) return;
+
+    card.setAttribute('data-category', category);
+
+    if (!document.getElementById('category-' + category)) {
+      const container = document.createElement('div');
+      container.className = 'category-products';
+      container.id = 'category-' + category;
+      card.appendChild(container);
+    }
+  });
+
+  categoryNames['sport-women-necklace'] = [
+    'آویز و گردنبند زنانه',
+    'قلائد ودلايات نسائية',
+    "Women's Pendants & Necklaces"
+  ];
+
+  categoryNames['sport-men-necklace'] = [
+    'آویز و گردنبند مردانه',
+    'قلائد ودلايات رجالية',
+    "Men's Pendants & Necklaces"
+  ];
+})();
 loadCMSProducts();
 </script></body></html>
