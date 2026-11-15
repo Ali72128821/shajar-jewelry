@@ -322,7 +322,7 @@ function productMarkup(p){
   {name:messengerLabels[currentLang][2],icon:socialIcons[2],url:'https://web.bale.ai/',bale:true}
  ];
  const contactHtml=contacts.map(c=>`<a class="contact${c.bale?' bale-contact':''}" href="${htmlEscape(c.url)}" target="_blank" rel="noopener noreferrer" title="${htmlEscape(c.name)}" aria-label="${htmlEscape(c.name)}"${c.bale?' data-copy-phone="09123099290"':''}>${c.icon}<span>${htmlEscape(c.name)}</span></a>`).join('');
- return `<article class="individual-product">${photo}<h4 class="product-title"><span class="title-local">${htmlEscape(local)}</span><span class="title-en" lang="en">${htmlEscape(english)}</span></h4>${description}<div class="product-code" dir="ltr">${htmlEscape(p.code)}</div><div class="product-inquiry"><div class="bilingual-row price-row"><span class="row-local">${htmlEscape(label)}</span><span class="row-en">Price Inquiry</span></div><div class="contacts">${contactHtml}</div></div></article>`;
+ return `<article class="individual-product">${photo}<h4 class="product-title"><span class="title-local">${htmlEscape(local)}</span><span class="title-en" lang="en">${htmlEscape(english)}</span></h4>${description}<div class="product-inquiry"><div class="bilingual-row price-row"><span class="row-local">${htmlEscape(label)}</span><span class="row-en">Price Inquiry</span></div><div class="contacts">${contactHtml}</div></div></article>`;
 }
 function render(){
  for(const el of document.querySelectorAll('.category-products')){el.innerHTML='';el.classList.remove('has-products')}
