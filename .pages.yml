@@ -41,6 +41,10 @@ content:
               label: پابند زنانه
             - value: leather-bracelet
               label: دستبند چرمی با سنگ شجر
+            - value: sport-women-necklace
+              label: زیورآلات نقره ورزشی - آویز و گردنبند زنانه
+            - value: sport-men-necklace
+              label: زیورآلات نقره ورزشی - آویز و گردنبند مردانه
             - value: other
               label: سایر محصولات
       - name: image
