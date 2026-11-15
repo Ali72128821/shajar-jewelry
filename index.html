@@ -144,8 +144,8 @@ const socialIcons=[
 ];
 /* =============================================================
    SHAJAR PRODUCT CATALOG
-   Product data is intentionally empty until genuine product photos arrive.
-   To publish an item, add an object to PRODUCTS. Example (not published):
+   Product data is intentionally empty. Only CMS records become visible.
+   Products are published through Pages CMS only. Example of fields:
    {category:'stone-men',code:'SH-MR-001',fa:'انگشتر مردانه شجر',
     ar:'خاتم رجالي شجر',en:"Shajar Men's Ring",
     image:'images/SH-MR-001.jpg',
@@ -156,7 +156,7 @@ const socialIcons=[
    Each item gets its OWN price inquiry links only after being added.
    ============================================================= */
 
-const PRODUCTS=[{"n":1,"category":"stone-women","fa":"انگشتر برگ نخل عمانی","en":"Omani Palm Ring","ar":"انگشتر برگ نخل عمانی","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_000000000dac8210a0d9c72d083ecdfa.png","code":"SH-001"},{"n":2,"category":"stone-pendants","fa":"آویز هشت‌ضلعی کشیده","en":"Elongated Octagonal Pendant","ar":"آویز هشت‌ضلعی کشیده","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_00000000106482468c9e3069976a343d.png","code":"SH-002"},{"n":3,"category":"silver-earrings","fa":"گوشواره آویزی درگاه","en":"Doorway Dangle Earrings","ar":"گوشواره آویزی درگاه","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_00000000120481f482d8566d2cbf6e45.png","code":"SH-003"},{"n":4,"category":"stone-pendants","fa":"آویز قلب","en":"Heart Pendant","ar":"آویز قلب","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_000000001e5c82109d3719141213d79c.png","code":"SH-004"},{"n":5,"category":"silver-women","fa":"انگشتر برگ نخل","en":"Palm Leaf Ring","ar":"انگشتر برگ نخل","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_000000002af4820ab3416a867d923f7f.png","code":"SH-005"},{"n":6,"category":"stone-pendants","fa":"آویز اشکی مینیمال","en":"Minimal Teardrop Pendant","ar":"آویز اشکی مینیمال","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_000000002bac820aa421ecb11f8c6171.png","code":"SH-006"},{"n":7,"category":"stone-women","fa":"انگشتر اشک سلطنتی","en":"Royal Teardrop Ring","ar":"انگشتر اشک سلطنتی","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_000000002c4c82109aaae5f9d068ab19.png","code":"SH-007"},{"n":8,"category":"other-products","fa":"گیره موی پشت سر طرح مار","en":"Snake Hair Pin","ar":"گیره موی پشت سر طرح مار","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_000000002c80820aaef42db4aeaa6232.png","code":"SH-008"},{"n":9,"category":"stone-women","fa":"انگشتر ساحل نخل","en":"Palm Coast Ring","ar":"انگشتر ساحل نخل","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_000000003b408210b82fbd1ec86c20e3.png","code":"SH-009"},{"n":10,"category":"stone-women","fa":"انگشتر اشکی شجر","en":"Dendritic Teardrop Ring","ar":"انگشتر اشکی شجر","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_000000003d14820a99c6ab0bdd0a065f.png","code":"SH-010"},{"n":11,"category":"stone-pendants","fa":"آویز لوزی عمودی","en":"Vertical Lozenge Pendant","ar":"آویز لوزی عمودی","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_000000003d2c8210b20a352e2a15b16c.png","code":"SH-011"},{"n":12,"category":"silver-earrings","fa":"گوشواره میخی برگ نخل","en":"Palm Leaf Stud Earrings","ar":"گوشواره میخی برگ نخل","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_000000003e648210a2191a8c502a4f8a.png","code":"SH-012"},{"n":13,"category":"silver-toerings","fa":"انگشتر انگشت پا","en":"Silver Toe Rings","ar":"انگشتر انگشت پا","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_000000005624820a9b23457edbe51f34.png","code":"SH-013"},{"n":14,"category":"stone-men","fa":"انگشتر مردانه برگ نخل","en":"Men’s Palm Leaf Ring","ar":"انگشتر مردانه برگ نخل","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_000000005c848210874db9e29ba01cd3.png","code":"SH-014"},{"n":15,"category":"stone-pendants","fa":"آویز محرابی","en":"Mihrab Pendant","ar":"آویز محرابی","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_0000000060cc8243aa6b892d4482dde3.png","code":"SH-015"},{"n":16,"category":"other-products","fa":"گیره موی نقره بدون سنگ","en":"Silver Hair Clip","ar":"گیره موی نقره بدون سنگ","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_0000000064188243a513061faf490fa9.png","code":"SH-016"},{"n":17,"category":"stone-pendants","fa":"آویز بادامی","en":"Marquise Pendant","ar":"آویز بادامی","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_0000000071cc821097c9509568be0470.png","code":"SH-017"},{"n":18,"category":"stone-pendants","fa":"آویز برگ خرما","en":"Date Palm Pendant","ar":"آویز برگ خرما","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_0000000075d08243a24f08bcb35ecbb8.png","code":"SH-018"},{"n":19,"category":"silver-earrings","fa":"گوشواره آویزی برگ نخل","en":"Palm Leaf Drop Earrings","ar":"گوشواره آویزی برگ نخل","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_0000000078b88210a4bf142921805a2c.png","code":"SH-019"},{"n":20,"category":"other-products","fa":"گیره موی جلوی سر طرح برگ","en":"Leaf Hair Clip","ar":"گیره موی جلوی سر طرح برگ","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_000000009674824696136a6d37be44fe.png","code":"SH-020"},{"n":21,"category":"stone-women","fa":"انگشتر شکوه نخل","en":"Majestic Palm Ring","ar":"انگشتر شکوه نخل","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_000000009cd88210bbb8aadf18d9b531.png","code":"SH-021"},{"n":22,"category":"stone-women","fa":"انگشتر شجر اشکی","en":"Dendritic Agate Teardrop Ring","ar":"انگشتر شجر اشکی","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_000000009e34820a89f5b452333ccee2.png","code":"SH-022"},{"n":23,"category":"stone-pendants","fa":"آویز در سنتی","en":"Traditional Door Pendant","ar":"آویز در سنتی","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_000000009f50820abb2858d1e79553ee.png","code":"SH-023"},{"n":24,"category":"silver-women","fa":"انگشتر موج دریا","en":"Sea Wave Ring","ar":"انگشتر موج دریا","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_00000000a0d082109cc3be3825334026.png","code":"SH-024"},{"n":25,"category":"silver-earrings","fa":"گوشواره ماری لاله‌گوشی","en":"Snake Ear Cuff Earrings","ar":"گوشواره ماری لاله‌گوشی","image":"https://raw.githubusercontent.com/Ali72128821/shajar-jewelry/main/file_00000000a0ec8210a92a694dfb49bcb2.png","code":"SH-025"}];
+const PRODUCTS=[];
 let currentLang='fa';
 const categoryNames={
  'stone-women':['انگشتر زنانه','خواتم نسائية',"Women's Ring"],
@@ -226,12 +226,20 @@ function productMarkup(p){
  const contactTitle=currentLang==='fa'?'کپی اطلاعات برای استعلام':currentLang==='ar'?'نسخ معلومات المنتج':'Copy product inquiry';
  const photo=img?`<img class="product-photo" loading="lazy" decoding="async" src="${htmlEscape(img)}" alt="${htmlEscape(local)}" onerror="this.style.display='none';this.insertAdjacentHTML('afterend','<div class=&quot;image-unavailable&quot;>تصویر در دسترس نیست / Image unavailable</div>')">`:'';
  const description=p.description?`<p class="product-description">${htmlEscape(p.description)}</p>`:'';
- return `<article class="individual-product">${photo}<h4 class="product-title"><span class="title-local">${htmlEscape(local)}</span><span class="title-en" lang="en">${htmlEscape(english)}</span></h4>${description}<div class="product-code" dir="ltr">${htmlEscape(p.code)}</div><div class="product-inquiry"><div class="bilingual-row price-row"><span class="row-local">${htmlEscape(label)}</span><span class="row-en">Price Inquiry</span></div><div class="contacts"><button type="button" class="contact copy-inquiry" data-code="${htmlEscape(p.code)}" title="${htmlEscape(contactTitle)}" aria-label="${htmlEscape(contactTitle)}">${socialIcons[1]}<span>${htmlEscape(currentLang==='fa'?'کپی مشخصات':currentLang==='ar'?'نسخ المعلومات':'Copy details')}</span></button></div></div></article>`;
+ const msg=encodeURIComponent(inquiryText(p));
+ const contacts=[
+  {name:messengerLabels[currentLang][0],icon:socialIcons[0],url:`https://wa.me/989123099290?text=${msg}`},
+  {name:messengerLabels[currentLang][1],icon:socialIcons[1],url:`https://t.me/+989123099290?text=${msg}`},
+  // Bale has no verified phone-number deep link. Open its web app and copy the number.
+  {name:messengerLabels[currentLang][2],icon:socialIcons[2],url:'https://web.bale.ai/',bale:true}
+ ];
+ const contactHtml=contacts.map(c=>`<a class="contact${c.bale?' bale-contact':''}" href="${htmlEscape(c.url)}" target="_blank" rel="noopener noreferrer" title="${htmlEscape(c.name)}" aria-label="${htmlEscape(c.name)}"${c.bale?' data-copy-phone="09123099290"':''}>${c.icon}<span>${htmlEscape(c.name)}</span></a>`).join('');
+ return `<article class="individual-product">${photo}<h4 class="product-title"><span class="title-local">${htmlEscape(local)}</span><span class="title-en" lang="en">${htmlEscape(english)}</span></h4>${description}<div class="product-code" dir="ltr">${htmlEscape(p.code)}</div><div class="product-inquiry"><div class="bilingual-row price-row"><span class="row-local">${htmlEscape(label)}</span><span class="row-en">Price Inquiry</span></div><div class="contacts">${contactHtml}</div></div></article>`;
 }
 function render(){
  for(const el of document.querySelectorAll('.category-products')){el.innerHTML='';el.classList.remove('has-products')}
  const groups=new Map();
- for(const p of allProducts){let cat=p.category;if(!document.getElementById('category-'+cat))cat='other-products';if(!groups.has(cat))groups.set(cat,[]);groups.get(cat).push(p)}
+ for(const p of allProducts){const cat=p.category;if(!document.getElementById('category-'+cat))continue;if(!groups.has(cat))groups.set(cat,[]);groups.get(cat).push(p)}
  for(const [cat,items] of groups){const el=document.getElementById('category-'+cat);if(el){el.innerHTML=items.map(productMarkup).join('');el.classList.add('has-products')}}
  for(const card of document.querySelectorAll('.category-card')){
   const c=card.getAttribute('data-category');const row=card.querySelector('.product-title');const names=categoryNames[c];
@@ -251,32 +259,49 @@ function setLanguage(lang){
 document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>setLanguage(b.dataset.lang)));
 document.getElementById('year').textContent=new Date().getFullYear();
 setLanguage('fa');
-/* Pages CMS: dynamically read product records created in the repository. The
-   page also works on its own with the recovered built-in product records. */
-function parseFrontmatter(source){
- const text=String(source).replace(/^\uFEFF/,'');
- const match=text.match(/^---\s*\r?\n([\s\S]*?)\r?\n---/);
- if(!match)return null;
- const obj={};for(const line of match[1].split(/\r?\n/)){
-  const m=line.match(/^([\w-]+):\s*(.*?)\s*$/);if(m){let v=m[2];if((v.startsWith('"')&&v.endsWith('"'))||(v.startsWith("'")&&v.endsWith("'")))v=v.slice(1,-1);obj[m[1]]=v}
- }return obj;
-}
+/* Read only products saved by Pages CMS in /products. No sample products. */
 async function loadCMSProducts(){
+ const repository='Ali72128821/shajar-jewelry';
+ const knownFirstProduct='products/2026-11-15-angshtr-mrdanh-hkhamnshy.md';
+ // GitHub's directory endpoint avoids truncated large repository trees.
+ let paths=[];
  try{
-  const resp=await fetch('https://api.github.com/repos/Ali72128821/shajar-jewelry/git/trees/main?recursive=1',{cache:'no-store'});
-  if(!resp.ok)return;const tree=(await resp.json()).tree||[];
-  const paths=tree.filter(x=>x.type==='blob'&&/^(products|content\/products|src\/content\/products)\/.+\.(json|md|markdown)$/i.test(x.path)).slice(0,150);
-  if(!paths.length)return;
-  const cms=(await Promise.all(paths.map(async x=>{
-   try{const r=await fetch(repoBase+x.path.split('/').map(encodeURIComponent).join('/'),{cache:'no-store'});if(!r.ok)return null;
-    const txt=await r.text();const raw=(()=>{try{return JSON.parse(txt.replace(/^\uFEFF/,''))}catch(e){return parseFrontmatter(txt)}})();
-    const p=normalizeProduct(raw);if(p){if(!p.code)p.code=x.path.split('/').pop().replace(/\.[^.]+$/,'');if(p.image&&typeof p.image==='string'&&!/^https?:|^data:/.test(p.image))p.image=p.image.replace(/^\.\.\//,'');}return p;
-   }catch(e){return null}
-  }))).filter(Boolean);
-  if(!cms.length)return;
-  const merged=new Map(allProducts.map(x=>[x.code||x.image,x]));for(const p of cms)merged.set(p.code||p.image,p);
-  allProducts=[...merged.values()];render();
- }catch(e){/* Offline preview: use embedded products */}
+  const listing=await fetch('https://api.github.com/repos/'+repository+'/contents/products?ref=main',{cache:'no-store'});
+  if(listing.ok){
+   const files=await listing.json();
+   if(Array.isArray(files))paths=files.filter(f=>f.type==='file'&&/\.(json|md|markdown)$/i.test(f.name)).map(f=>f.path);
+  }
+ }catch(err){console.warn('CMS listing failed',err)}
+ // Always retrieve the already published Achaemenid ring, even if the GitHub
+ // directory listing is temporarily unavailable or rate-limited.
+ if(!paths.includes(knownFirstProduct))paths.unshift(knownFirstProduct);
+ const loaded=await Promise.all(paths.map(async path=>{
+  try{
+   const url=repoBase+path.split('/').map(encodeURIComponent).join('/');
+   const response=await fetch(url+'?v='+Date.now(),{cache:'no-store'});
+   if(!response.ok)return null;
+   const source=(await response.text()).replace(/^\uFEFF/,'').trim();
+   let record;
+   try{record=JSON.parse(source)}catch(e){record=parseFrontmatter(source)}
+   if(!record)return null;
+   const p=normalizeProduct(record);
+   if(!p)return null;
+   if(!p.code)p.code=path.split('/').pop().replace(/\.[^.]+$/,'');
+   return p;
+  }catch(err){console.warn('CMS product unavailable:',path,err);return null}
+ }));
+ allProducts=loaded.filter(Boolean);
+ render();
+}
+function parseFrontmatter(source){
+ const match=String(source).match(/^---\s*\r?\n([\s\S]*?)\r?\n---/);
+ if(!match)return null;
+ const obj={};
+ for(const line of match[1].split(/\r?\n/)){
+  const field=line.match(/^([\w-]+):\s*(.*?)\s*$/);
+  if(field)obj[field[1]]=field[2].replace(/^["']|["']$/g,'');
+ }
+ return obj;
 }
 loadCMSProducts();
 </script></body></html>
