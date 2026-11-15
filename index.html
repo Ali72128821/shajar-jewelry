@@ -147,6 +147,74 @@ Sports Silver Jewelry
 </div>
 
 </section>
+ <script>
+(function(){
+  const s = document.getElementById('shajar-sports');
+  const c = document.getElementById('collections');
+  if (!s || !c) return;
+
+  s.className = 'group';
+  s.removeAttribute('style');
+  s.removeAttribute('dir');
+s.style.cssText = 'border:1px solid #777; border-radius:14px; padding:20px; margin:30px 0;';
+  s.innerHTML = `
+    <h3 class="group-label">
+      <span class="title-local">زیورآلات نقره - ورزشی</span>
+      <span class="title-en">Sports Silver Jewelry</span>
+    </h3>
+    <div class="grid">
+      <article class="card category-card">
+        <h3 class="product-title">
+          <span class="title-local">آویز و گردنبند زنانه</span>
+          <span class="title-en">Women's Pendants & Necklaces</span>
+        </h3>
+      </article>
+      <article class="card category-card">
+        <h3 class="product-title">
+          <span class="title-local">آویز و گردنبند مردانه</span>
+          <span class="title-en">Men's Pendants & Necklaces</span>
+        </h3>
+      </article>
+    </div>
+  `;
+
+  c.appendChild(s);
+})();
+ </script>
+ <script>
+(function(){
+  const sports = document.getElementById('shajar-sports');
+  const collections = document.getElementById('collections');
+  if (!sports || !collections) return;
+
+  sports.removeAttribute('style');
+  sports.removeAttribute('dir');
+  sports.className = 'group';
+
+  sports.innerHTML = `
+    <h3 class="group-label">
+      <span class="title-local">زیورآلات نقره - ورزشی</span>
+      <span class="title-en">Sports Silver Jewelry</span>
+    </h3>
+    <div class="grid" id="sports">
+      <article class="card category-card">
+        <h3 class="product-title">
+          <span class="title-local">آویز و گردنبند زنانه</span>
+          <span class="title-en">Women's Pendants & Necklaces</span>
+        </h3>
+      </article>
+      <article class="card category-card">
+        <h3 class="product-title">
+          <span class="title-local">آویز و گردنبند مردانه</span>
+          <span class="title-en">Men's Pendants & Necklaces</span>
+        </h3>
+      </article>
+    </div>
+  `;
+
+  collections.appendChild(sports);
+})();
+</script>
 <!-- SHAJAR SPORTS COLLECTION END --><footer><b>SHAJAR</b><div data-i18n="footer">شجر · نقره و طلا · سنگ شجر طبیعی</div><div>© <span id="year"></span> SHAJAR</div></footer>
 <script>
 const dict={fa:{lead:'دنیایی از زیورآلات با الهام از طبیعت، هنر و زیبایی سنگ شجر، به‌زودی رونمایی می‌شود.',explore:'آشنایی با مجموعه‌ها ↓',collectionsSub:'محصولات شجر را در دسته‌بندی‌های زیر مشاهده کنید.',withStone:'زیورآلات نقره با سنگ شجر طبیعی',silverOnly:'زیورآلات نقره بدون سنگ شجر طبیعی',other:'سایر محصولات',leather:'دستبند چرمی با سنگ شجر طبیعی | Leather Bracelet with Natural Dendritic Agate',note:'محصولات در حال ساخت هستند. به‌زودی تصاویر واقعی مجموعه‌ها در همین سایت منتشر می‌شود.',footer:'شجر · نقره و طلا · سنگ شجر طبیعی',items:['انگشتر زنانه','انگشتر مردانه','آویز و گردنبند','گوشواره','دستبند','تسبیح','نیل کاور','پابند زنانه'],soon:'به‌زودی'},ar:{lead:'مجوهرات مستوحاة من الطبيعة والفن وجمال حجر العقيق الشجري، نكشف عنها قريبًا.',explore:'اكتشف المجموعات ↓',collectionsSub:'منتجاتنا قيد التحضير؛ ستُضاف الصور والتفاصيل عند الإطلاق.',withStone:'مجوهرات فضية مع العقيق الشجري الطبيعي',silverOnly:'مجوهرات فضية بدون حجر العقيق الشجري الطبيعي',other:'منتجات أخرى',leather:'سوار جلدي مع العقيق الشجري الطبيعي | Leather Bracelet with Natural Dendritic Agate',note:'مجموعاتنا قيد التحضير. ستُنشر الصور الحقيقية هنا قريبًا.',footer:'شجر · الفضة والذهب · العقيق الشجري الطبيعي',items:['خواتم نسائية','خواتم رجالية','قلائد ودلايات','أقراط','أساور','مسابح','غطاء الأظافر','خلخال نسائي'],soon:'قريبًا'},en:{lead:'Nature-inspired jewelry crafted around the beauty of natural dendritic agate. A new collection is on its way.',explore:'Explore the collections ↓',collectionsSub:'Our pieces are in preparation. Product photography and details will be added at launch.',withStone:'Silver Jewelry with Natural Dendritic Agate',silverOnly:'Silver Jewelry Without Natural Dendritic Agate',other:'Other Products',leather:'Leather Bracelet with Natural Dendritic Agate | دستبند چرمی با سنگ شجر طبیعی',note:'Our collections are in the making. Real product photography will be revealed here soon.',footer:'SHAJAR · Silver and Gold · Natural Dendritic Agate',items:["Women's Rings","Men's Rings",'Pendants & Necklaces','Earrings','Bracelets','Prayer Beads','Nail Covers',"Women's Anklet"],soon:'Coming soon'}};
