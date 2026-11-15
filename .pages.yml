@@ -1,0 +1,51 @@
+media:
+  input: images
+  output: /images
+
+content:
+  - name: products
+    label: محصولات شجر
+    type: collection
+    path: products
+    format: json
+    fields:
+      - name: title
+        label: نام محصول
+        type: string
+        required: true
+      - name: category
+        label: دسته‌بندی محصول
+        type: select
+        required: true
+        options:
+          values:
+            - value: stone-women-ring
+              label: انگشتر زنانه با سنگ شجر
+            - value: stone-men-ring
+              label: انگشتر مردانه با سنگ شجر
+            - value: stone-earring
+              label: گوشواره با سنگ شجر
+            - value: stone-necklace
+              label: گردنبند و آویز با سنگ شجر
+            - value: stone-bracelet
+              label: دستبند با سنگ شجر
+            - value: silver-women-ring
+              label: انگشتر زنانه بدون سنگ
+            - value: silver-earring
+              label: گوشواره بدون سنگ
+            - value: silver-bracelet
+              label: دستبند بدون سنگ
+            - value: silver-nail
+              label: نیل کاور
+            - value: silver-anklet
+              label: پابند زنانه
+            - value: leather-bracelet
+              label: دستبند چرمی با سنگ شجر
+            - value: other
+              label: سایر محصولات
+      - name: image
+        label: عکس محصول
+        type: image
+      - name: description
+        label: توضیحات محصول
+        type: text
